@@ -1,0 +1,394 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #cfcece;
+}
+
+.panel {
+   background-color: rgb(238, 215, 247);
+   width: 800px;
+   height: 500px;
+   text-align: center;
+   padding: 5PX;
+   color: rgb(70, 60, 42);
+   
+}
+.cinta1 {
+    width: 600px;
+    height: 5px;
+    background-color: #0a0a0aea;
+    margin-top: 320px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.cinta2 {
+    width: 600px;
+    height: 5px;
+    background-color: #0a0a0aea;
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 350px;
+}
+
+.motor{
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    color: white;
+    text-align: center;
+    border-radius: 100%;
+    margin-left: 90px;
+    position: absolute;
+    align-content: center;
+    margin-top: 300px;
+}
+
+.rueda{
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    color: white;
+    text-align: center;
+    border-radius: 100%;
+    margin-left: 680px;
+    position: absolute;
+    align-content: center;
+    margin-top: 300px;
+}
+
+.caja1{
+    width: 90px;
+    height:90px;
+    background-color: rgb(228, 187, 125);
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 180px;
+}
+
+.caja2{
+    width: 70px;
+    height:70px;
+    background-color: rgb(228, 187, 125);
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 300px;
+}
+
+.sensor1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: black;
+    align-content: center;
+    color: white;
+    margin-left: 480px;
+    margin-top: 260px;
+    position: absolute;
+}
+
+.sensor2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: black;
+    align-content: center;
+    color: white;
+    margin-left: 450px;
+    margin-top: 220px;
+    position: absolute;
+}
+.botonControler {
+    background-color: gray;
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    margin-left: 130px;
+    border-radius: 20%;
+    margin-top: 20px;
+    padding: 5px;
+    align-content: center;
+}
+.start{
+    background-color: rgb(11, 238, 11);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor: pointer; 
+     
+}
+.stop{
+    background-color: rgb(238, 19, 11);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor: pointer;  
+    margin-top: 5px; 
+}
+.sensor_a_plus{
+    position: absolute;
+    background-color: #979696;
+    width: 20px;
+    height: 20px;
+    margin-left: 560px;
+    color: rgb(0, 0, 0);
+    border: solid;
+    padding: 1px;
+    margin-top: 25px;
+}
+
+.sensor_a_rest{
+    position: absolute;
+    background-color: #979696;
+    width: 20px;
+    height: 20px;
+    margin-left: 560px;
+    color: rgb(0, 0, 0);
+    border: solid;
+    padding: 1px;
+    margin-top: 95px;
+}
+
+.barra{
+    position: absolute;
+    background-color: #050505;
+    width: 20px;
+    height: 50px;
+    margin-left: 565px;
+    margin-top: 50px;
+}
+
+.contenedor_barra{
+    position: absolute;
+    background-color: #ccbcbc;
+    height: 100px;
+    width: 50px;
+    border: solid;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+
+.franja{
+    position: absolute;
+    background-color: #050505;
+    width: 54px;
+    height: 5px;
+    margin-left: 450px;
+    margin-top: 65px;
+}
+
+.barra_estampado{
+    position: absolute;
+    background-color: #050505;
+    width: 20px;
+    height: 100px;
+    margin-top: 68px;
+    margin-left: 468px;
+}
+
+.cable1{
+    background-color: #050505;
+    width: 75px;
+    height: 4px;
+    position: absolute;
+    margin-left: 505px;
+    margin-top: 65px;
+}
+
+.cable21{
+    background-color: #050505;
+    width: 25px;
+    height: 4px;
+    position: absolute;
+    margin-left: 540px;
+    margin-top: 75px;
+}
+
+.cable22{
+    background-color: #050505;
+    width: 4px;
+    height: 65px;
+    position: absolute;
+    margin-left: 540px;
+    margin-top: 75px;
+}
+
+.cable23{
+    background-color: #050505;
+    width: 40px;
+    height: 4px;
+    position: absolute;
+    margin-left: 504px;
+    margin-top: 140px;
+}
+
+.ident1{
+    color: #172efa;
+    height: min-content;
+    width: min-content;
+    position: absolute;
+    margin-left: 420px;
+    margin-top: 60px;
+}
+
+.ident2{
+    color: #172efa;
+    height: min-content;
+    width: min-content;
+    position: absolute;
+    margin-left: 420px;
+    margin-top: 100px;
+}
+
+.ident3{
+    color: #172efa;
+    height: min-content;
+    width: min-content;
+    position: absolute;
+    margin-left: 420px;
+    margin-top: 135px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotating {
+    animation: rotate 1s linear infinite;
+}
+
+/* Agrega esta parte al final de tu archivo styles.css */
+@keyframes moveRight {
+    from {
+        left: 280px; /* Posición inicial de caja1 */
+    }
+    to {
+        left: 420px; /* Posición final de caja1 (justo antes del sensor1) */
+    }
+}
+
+.moving {
+    position: absolute; /* Asegúrate de que la posición sea absoluta */
+    animation: moveRight 4s linear forwards; /* Duración de la animación */
+}
+
+@keyframes moveDown {
+    from {
+        top: 118px; /* Posición inicial de barra_estampado */
+    }
+    to {
+        top: 205px; /* Posición final de barra_estampado (justo donde toca la caja1) */
+    }
+}
+
+@keyframes moveUp {
+    from {
+        top: 205px; /* Posición inicial de barra_estampado después de bajar */
+    }
+    to {
+        top: 118px; /* Posición final de barra_estampado (posición inicial) */
+    }
+}
+
+.movingDown {
+    position: absolute; /* Asegúrate de que la posición sea absoluta */
+    animation: moveDown 4s linear forwards; /* Duración de la animación */
+}
+
+.movingUp {
+    position: absolute; /* Asegúrate de que la posición sea absoluta */
+    animation: moveUp 4s linear forwards; /* Duración de la animación */
+}
+
+@keyframes moveToRueda {
+    from {
+        left: 410px; /* Posición inicial de caja1 */
+    }
+    to {
+        left: 600px; /* Posición final de caja1 (antes de la rueda) */
+    }
+}
+
+.movingToRueda {
+    position: absolute; /* Asegúrate de que la posición sea absoluta */
+    animation: moveToRueda 2s linear forwards; /* Duración de la animación */
+}
+
+@keyframes moveRightCaja2 {
+    from {
+        left: 410px; /* Posición inicial de caja2 */
+    }
+    to {
+        left: 530px; /* Posición final de caja2 (justo antes del sensor2) */
+    }
+}
+
+.movingRightCaja2 {
+    position: absolute;
+    animation: moveRightCaja2 2s linear forwards;
+}
+
+@keyframes moveDownCaja2 {
+    from {
+        top: 118px; /* Posición inicial de barra_estampado */
+    }
+    to {
+        top: 185px; /* Posición final de barra_estampado (justo donde toca la caja2) */
+    }
+}
+
+.movingDownCaja2 {
+    position: absolute;
+    animation: moveDownCaja2 4s linear forwards;
+}
+
+@keyframes moveUpCaja2 {
+    from {
+        top: 185px; /* Posición inicial de barra_estampado después de bajar */
+    }
+    to {
+        top: 118px; /* Posición final de barra_estampado (posición inicial) */
+    }
+}
+
+.movingUpCaja2 {
+    position: absolute;
+    animation: moveUpCaja2 4s linear forwards;
+}
+
+@keyframes moveRightAgainCaja2 {
+    from {
+        left: 530px; /* Posición inicial de caja2 */
+    }
+    to {
+        left: 615px; /* Posición final de caja2 (justo antes del sensor2) */
+    }
+}
+
+.movingRightAgainCaja2 {
+    position: absolute;
+    animation: moveRightAgainCaja2 2s linear forwards;
+}
+
+.descripcion{
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    margin-bottom: 400px;
+    margin-right: 1100px;
+    justify-content: center;
+    background-color: rgb(70, 68, 69);
+    text-transform: bold;
+    padding: 5px;
+    color: white;
+    border-radius: 5%;
+}
