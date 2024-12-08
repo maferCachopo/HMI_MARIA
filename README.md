@@ -20,7 +20,7 @@ Este proyecto simula un sistema mecatrónico para el control de estampado de caj
 Si tienes Git instalado, puedes clonar el repositorio en tu máquina local:
 
 ```sh
-git clone https://github.com/tu-usuario/sistema-mecatronico.git
+git clone https://github.com/maferCachopo/HMI_MARIA.git
 cd hmi
 
 Puedes vizualizar en la web poniendo este comando en la terminal
